@@ -1,0 +1,16 @@
+@use './functions' as *;
+
+:root {
+  @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+  // font families
+  --font-family-inter: 'Inter', serif;
+
+  //   font sizes
+  --cw-sm-font-size: #{remUnit(14)}; // 14px;
+  --cw-base-font-size: #{remUnit(16)}; // 16px;
+  --cw-md-font-size: #{remUnit(20)}; // 20px;
+  --cw-lg-font-size: #{remUnit(48)}; // 48px;
+  --cw-xl-font-size: #{remUnit(56)}; // 56px;
+  --cw-xl2-font-size: #{remUnit(72)}; // 72px;
+  font-size: var(--lg-base-font-size);
+}
