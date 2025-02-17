@@ -1,0 +1,30 @@
+html,
+body {
+  @apply w-full h-full overflow-x-hidden;
+}
+
+body {
+  @apply font-normal font-inter text-base text-blue;
+  letter-spacing: -0.004em;
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+}
+
+::selection {
+  @apply bg-grey-500;
+}
+
+a {
+  transition: 0.3s;
+}
+
+button {
+  @apply cursor-pointer min-w-fit ease-in duration-300;
+}
+
+// #root {
+//   @apply w-full whitespace-normal;
+//   word-wrap: break-word; /* Legacy property */
+//   overflow-wrap: break-word; /* Modern equivalent */
+// }
